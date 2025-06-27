@@ -1,4 +1,4 @@
-# BankingSystem
+# Banking System
 
 A simple Java-based console application that simulates core banking operations such as creating accounts, logging in, depositing, withdrawing, and checking balance. This project is designed for learning object-oriented programming and file handling in Java.
 
