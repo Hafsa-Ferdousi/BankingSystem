@@ -22,7 +22,8 @@ public class Menu {
         System.out.println("\n1. Deposit");
         System.out.println("2. Withdraw");
         System.out.println("3. Balance");
-        System.out.println("4. Exit");
+        System.out.println("4. Monthly Update");
+        System.out.println("5. Exit");
         System.out.print("\nEnter Your Choice : ");
         j = scanner.nextInt();
         
@@ -30,12 +31,12 @@ public class Menu {
             case 1:
                 System.out.print("\nEnter deposit amount: ");
                     double depositAmount = scanner.nextDouble();
-                    balanceDetails.executeOperation(depositAmount); // Use deposit internally in BalanceDetails
+                    balanceDetails.executeOperation(depositAmount); 
                     break;
             case 2 :
                 System.out.print("\nEnter withdrawal amount: ");
                     double withdrawAmount = scanner.nextDouble();
-                    balanceDetails.executeOperation(-withdrawAmount); // Use withdraw internally in BalanceDetails
+                    balanceDetails.executeOperation(-withdrawAmount); 
                     break;
             case 3: // Monthly Balance Update
                     balanceDetails.monthly();
@@ -59,4 +60,5 @@ public class Menu {
 
 
 
+   
    
