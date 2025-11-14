@@ -2,6 +2,10 @@
 
 A simple Java-based console application that simulates core banking operations such as creating accounts, logging in, depositing, withdrawing, and checking balance. This project is designed for learning object-oriented programming and file handling in Java.
 
+## UML
+<img width="604" height="911" alt="image" src="https://github.com/user-attachments/assets/b3d965b1-e3f3-4e1d-9bc2-e39b91f2b6d8" />
+
+
 ## Features
 
 - Create new bank accounts
